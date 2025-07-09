@@ -1,5 +1,5 @@
 import Rails from "@rails/ujs";
-import jQuery from "jquery";
+import "./jquery";
 import moment from "moment";
 import "./vendor/jquery.pjax";
 import "./vendor/jquery_nested_form";
@@ -17,5 +17,4 @@ import "./ui";
 import "./widgets";
 
 Rails.start();
-window.$ = window.jQuery = jQuery;
 window.moment = moment;
